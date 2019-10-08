@@ -54,8 +54,12 @@ through the config file. Please refer to the [excellent documentation](http://jc
 
 There are a couple of includes which may be usefully overriden:
 
-* `header.html` Defines the inner content of the header block
-* `footer.html` Defines the inner content of the footer block
+* `header.html` Defines the inner content of the header block  
+   Defaults to the site title as set in `_config.yml`
+* `footer.html` Defines the inner content of the footer block  
+   Defaults to blank.
+* `head.html` Defines content which will be inserted into the HTML head block. Stylesheets, javascripts, etc.  
+   Defaults to blank.
 
 The `header` and `footer` elements are owned by the default layout.
 
